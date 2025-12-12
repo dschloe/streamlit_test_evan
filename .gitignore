@@ -208,3 +208,4 @@ __marimo__/
 
 # Key
 .keys/
+.streamlit/
