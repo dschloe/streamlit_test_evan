@@ -8,6 +8,10 @@ import plotly.express as px
 import plotly.figure_factory as ff
 from numpy.random import default_rng as rng
 
+# 파일 불러오기
+df = pd.read_excel("data/orders.xlsx")
+st.data_editor(df)
+
 # 기본 텍스트 출력
 st.title("Hello Streamlit!!")
 st.header("헤더")
